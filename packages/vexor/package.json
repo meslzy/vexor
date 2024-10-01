@@ -1,0 +1,31 @@
+{
+  "name": "vexor",
+  "version": "0.0.1",
+  "description": "the ultimate type-safe server actions and form handling in Next.js",
+  "type": "module",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "exports": {
+    ".": "./dist/main.js"
+  },
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@typeschema/main": "^0.14.0",
+    "object-path": "^0.11.8"
+  },
+  "devDependencies": {
+    "@types/object-path": "^0.11.4",
+    "@types/react": "^18.3.5"
+  },
+  "peerDependencies": {
+    "next": "^14",
+    "react": "^18"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "license": "mit"
+}

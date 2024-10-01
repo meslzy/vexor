@@ -1,0 +1,27 @@
+{
+  "name": "vexor",
+  "type": "module",
+  "packageManager": "npm@10.8.2",
+  "scripts": {
+    "lint": "turbo lint"
+  },
+  "dependencies": {
+    "@typeschema/main": "^0.14.0",
+    "@types/node": "22.7.4",
+    "@meslzy/eslint": "^1.0.6",
+    "@meslzy/tsconfig": "^0.2.8",
+    "eslint": "^9.11.0",
+    "tsup": "^8.3.0",
+    "turbo": "^2.1.2",
+    "typescript": "^5.6.2",
+    "vexor": "^0.0.1"
+  },
+  "overrides": {
+    "eslint": "$eslint"
+  },
+  "workspaces": [
+    "docs",
+    "examples/*",
+    "packages/*"
+  ]
+}

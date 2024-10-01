@@ -1,0 +1,9 @@
+{
+  "extends": "@meslzy/tsconfig",
+  "compilerOptions": {
+    "strictNullChecks": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,21 @@
+# ide
+.idea/
+
+# turbo
+.turbo/
+
+# clinic
+.clinic/
+
+# node
+node_modules/
+
+# test & build
+dist/
+next-env.d.ts
+/.next/
+/out/
+/build
+.contentlayer
+.content-collections
+.source

@@ -1,0 +1,17 @@
+{
+  "extends": "@meslzy/tsconfig",
+  "compilerOptions": {
+    "noEmit": false,
+    "allowImportingTsExtensions": false,
+    "strict": true,
+    "strictNullChecks": true,
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}
